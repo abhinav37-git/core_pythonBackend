@@ -1,151 +1,181 @@
-# from math import *
-# number =int(input('Input the number '))
+from math import *
+number =int(input('Input the number '))
 
-# print("The number input is ", number, "Square root of number is ", sqrt(number))
+print("The number input is ", number, "Square root of number is ", sqrt(number))
 
-# sentence = input("Enter the sentence: ")
+sentence = input("Enter the sentence: ")
 
-# print("Your sentence is: " + sentence)
+print("Your sentence is: " + sentence)
 
-# word1 = input("Enter the word to replace: ")
+word1 = input("Enter the word to replace: ")
 
-# word2 = input("Enter the word to replace it with: ")
+word2 = input("Enter the word to replace it with: ")
 
-# print(sentence.replace(word1, word2))
+print(sentence.replace(word1, word2))
 
-# countries = ["India", "Australia", "USA", "New_Country", "Ghana"]
-# name = "abhinav"
-# age = 21
-# print(type(countries), type(name), type(age))
+countries = ["India", "Australia", "USA", "New_Country", "Ghana"]
+name = "abhinav"
+age = 21
+print(type(countries), type(name), type(age))
 
-# countries[2] = 5
+countries[2] = 5
 
-# print(countries)
-# print(type(countries))
+print(countries)
+print(type(countries))
 
-# countries[3] = True
-# print(type(countries[3]))
-# print(len(countries))
+countries[3] = True
+print(type(countries[3]))
+print(len(countries))
 
-# countries = list(("Constructor", 21, False))
-# print(type(countries))
-# print(countries)
-
-
-# list1 = [1, 5, 8, 11, 12]
-# list2 = ["Apples", "Mangoes", "Bananas", "Orange"]
-
-# del list1[1]
-
-# print(list1)
-# list1.sort()
-# print(list1)
+countries = list(("Constructor", 21, False))
+print(type(countries))
+print(countries)
 
 
-# list3 = list1.copy()
+list1 = [1, 5, 8, 11, 12]
+list2 = ["Apples", "Mangoes", "Bananas", "Orange"]
 
-# print(list3)
+del list1[1]
 
-# list2.pop(2)
-# print(list2)
+print(list1)
+list1.sort()
+print(list1)
 
-# list2.remove("Apples")
-# print(list2)
 
-# del list2[1]
-# print(list2)
-# # list1.append(6)
-# list1.extend(list2)
+list3 = list1.copy()
 
-# list1.append("Cherry")
+print(list3)
 
-# print(list1)
+list2.pop(2)
+print(list2)
 
-# list2.insert(2, "New_fruit")
+list2.remove("Apples")
+print(list2)
 
-# print(list2)
+del list2[1]
+print(list2)
+# list1.append(6)
+list1.extend(list2)
 
-# list2.remove("New_fruit")
-# print(list2)
+list1.append("Cherry")
 
-# list2.clear()
+print(list1)
 
-# print(list2)
+list2.insert(2, "New_fruit")
 
-##Tuples
-# three_numbers = (1, 2, 3, "Abhinav")
-# strings = ("New1", "New2", "New3")
-# boo = (True, False, True)
+print(list2)
 
-# print(three_numbers)
-# print(strings)
-# print(boo)
-# # print(three_numbers[0])
+list2.remove("New_fruit")
+print(list2)
 
-# # three_numbers[1] = 23
-# print(len(three_numbers))
-# print(type(three_numbers))
+list2.clear()
 
-# three_number2 = tuple((1, 2, 3, "Abhinav"))
-# print(three_number2)
+print(list2)
 
-##functions in python
+#Tuples
+three_numbers = (1, 2, 3, "Abhinav")
+strings = ("New1", "New2", "New3")
+boo = (True, False, True)
 
-# def greetings_function(name, age, occupation):
-#     print("Welcome new user " + str(name), age, occupation)
+print(three_numbers)
+print(strings)
+print(boo)
+# print(three_numbers[0])
 
-# name = input("Enter your name: ")
-# age = int(input("Enter your age: "))
-# occupation = input("Enter the occupation: ")
-# greetings_function(name, age, occupation)
+# three_numbers[1] = 23
+print(len(three_numbers))
+print(type(three_numbers))
 
-#Return statements in python function
+three_number2 = tuple((1, 2, 3, "Abhinav"))
+print(three_number2)
 
-# def my_function():
-#     return 5+4
+#functions in python
 
-# def add_numbers(num1, num2):
-#     print("Hello")
-#     return num1+num2
+def greetings_function(name, age, occupation):
+    print("Welcome new user " + str(name), age, occupation)
 
-# print(my_function())
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+occupation = input("Enter the occupation: ")
+greetings_function(name, age, occupation)
 
-# num1 = int(input("Enter the first number: "))
-# num2 = int(input("Enter the second number: "))
-# print("Addition of numbers is", add_numbers(num1, num2))
+Return statements in python function
 
-# If statements in python
+def my_function():
+    return 5+4
 
-# number = int(input("Enter the number: "))
-# if (number%2 == 0):
-#     print("Even number")
+def add_numbers(num1, num2):
+    print("Hello")
+    return num1+num2
 
-# else:
-#     print("Odd number")
+print(my_function())
 
-# a="Abhinav"
-# b="Abhinav"
-# if a == b:
-#     print("a is equals to b")
-# elif a == 
-# else:
-#    print("a is not equals to b")
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+print("Addition of numbers is", add_numbers(num1, num2))
 
-# boy = True
-# short = True
+If statements in python
 
-# if boy == True and short == False:
-#     print("He is a boy or he is short")
-# else:
-#     print("A is none of the two") 
+number = int(input("Enter the number: "))
+if (number%2 == 0):
+    print("Even number")
 
-value = input("Input a string: ")
+else:
+    print("Odd number")
+
+a="Abhinav"
+b="Abhinav"
+if a == b:
+    print("a is equals to b")
+elif a == 
+else:
+   print("a is not equals to b")
+
+boy = True
+short = True
+
+if boy == True and short == False:
+    print("He is a boy or he is short")
+else:
+    print("A is none of the two") 
+
+value = input(("Input a string: "))
 
 if type(value) == str:
     print(value + " is a string")
-
+    
 elif type(value) == int:
     print(value, " is an Integer")
-
+elif type(value) ==list:
+    print(value, " is a list")
 else:
-    print("A is none of the two")
+    print("We don't know the data type of ", value)
+
+
+value = int(input('Input the number'))
+
+while loops in python
+
+i = 1
+
+while i < 6:
+    print(i)
+    i +=1
+    print(i)
+
+x = list(input("Enter a number"))
+
+for i in x:
+    print(i + "\n")
+
+
+mydict1 = {
+    "name": "Abhinav",
+    "age": "22",
+    "gender": "Male"
+}
+
+mydict1 = list(("ji", "ju", "jo"))
+for i in mydict1:
+
+    print(i)
